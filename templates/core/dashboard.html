@@ -1,12 +1,33 @@
 {% extends 'base.html' %}
 
-{% block title %} HOME | {{ block.super }} {% endblock %}
+{% block title %} DASHBOARD|{{ block.super }}{% endblock %}
 
 {% block content %}
 
-<h2>Página Dashboard em construção.</h2>
-
-<a href="{% url 'home' %} " class="btn btn-sm btn-primary">Home</a>
+<div class="row justify-content-center">
+    <div class="col-md-12 mt-2">
+        <div class="card">
+            <div class="card-header text-center text-muted">
+                SIGTOMB
+            </div>
+            <div class="card-body">
+                <div class="h-100 p-4 bg-light border rounded-3">
+                    <div class="bg-light p-3 rounded-lg m-3">
+                        <h1 class="display-5">Sistema de Gerenciamento de Tombamentos</h1>
+                        <p class="lead">Dashboard em construção.</p>
+                        <hr class="my-4">
+                        <a href="{% url 'home' %}" class="btn btn-sm btn-primary">Ir a Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-center">
+                <small class="text-center text-muted">
+                    Powered_by_Subseção de Logística CPTran/BPTran - 2021
+                </small>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 {% endblock %}
