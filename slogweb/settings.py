@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-6oidi5nk2kj$s95*(ve8fsdn_mz56px2*z_mk3z(1*x#l6k80u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*', 'https://logisticaweb.herokuapp.com']
 
